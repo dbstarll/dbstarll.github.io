@@ -8,6 +8,7 @@
 ```mermaid
 graph TD;
     utils-lang-->parent.base;
+    certs-->utils-lang;
     dubai-->utils-lang;
     utils-spring-security-->utils-lang;
 ```
