@@ -50,6 +50,5 @@ graph TD;
     study-boot-->study-module;
     study-boot-->utils-spring-boot;
     study-boot-->utils-spring-security;
-    study-boot-->utils-net-api;
     study-boot-->utils-json;
 ```
