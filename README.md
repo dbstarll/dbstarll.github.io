@@ -3,6 +3,7 @@
 * [parent:v1.2.9](https://github.com/dbstarll/parent)
 * [utils-lang:v1.0.6](https://github.com/dbstarll/utils-lang)
 * [utils-spring-boot:v1.0.6](https://github.com/dbstarll/utils-spring-boot)
+* [utils-spring-security:v1.0.2](https://github.com/dbstarll/utils-spring-security)
 * [dubai:v1.0.1](https://github.com/dbstarll/dubai)
 * [dubai-module-user:v1.0.2](https://github.com/dbstarll/dubai-module-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
@@ -18,6 +19,9 @@ graph TD;
     utils-lang-->parent.base;
 
     utils-spring-boot-->parent.base;
+
+    utils-spring-security-->parent.base;
+    utils-spring-security-->utils-lang;
 
     dubai([dubai])-->parent.base;
     dubai-model([dubai-model])-->dubai;
@@ -39,6 +43,5 @@ graph TD;
     study-boot-->utils-spring-security;
 
     certs-->utils-lang;
-    utils-spring-security-->utils-lang;
 ```
 
