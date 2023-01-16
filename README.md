@@ -19,12 +19,8 @@ graph TD;
 
     dubai([dubai])-->parent.base;
     dubai-model([dubai-model])-->dubai;
-    dubai-model-entity-->dubai-model;
-    dubai-model-collection-->dubai-model;
-    dubai-model-collection-->dubai-model-entity;
-    dubai-model-collection-->utils-lang;
+    dubai-model-service-->utils-lang;
     dubai-model-service-->dubai-model;
-    dubai-model-service-->dubai-model-collection;
     dubai-module([dubai-module])-->dubai;
     dubai-module-->dubai-model-service;
     
