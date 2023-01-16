@@ -5,6 +5,7 @@
 * [utils-spring-boot:v1.0.6](https://github.com/dbstarll/utils-spring-boot)
 * [utils-spring-security:v1.0.2](https://github.com/dbstarll/utils-spring-security)
 * [utils-http-client:v1.0.3](https://github.com/dbstarll/utils-http-client)
+* [utils-net-api:v1.0.2](https://github.com/dbstarll/utils-net-api)
 * [dubai:v1.0.1](https://github.com/dbstarll/dubai)
 * [dubai-module-user:v1.0.2](https://github.com/dbstarll/dubai-module-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
@@ -25,6 +26,9 @@ graph TD;
     utils-spring-security-->utils-lang;
 
     utils-http-client-->parent.base;
+
+    utils-net-api-->parent.base;
+    utils-net-api-->utils-http-client;
 
     dubai([dubai])-->parent.base;
     dubai-model([dubai-model])-->dubai;
