@@ -18,11 +18,13 @@ graph TD;
     utils-spring-boot-->parent.base;
 
     dubai([dubai])-->parent.base;
+    dubai-model([dubai-model])-->dubai;
+    dubai-module([dubai-module])-->dubai;
     dubai-->utils-lang;
     
-    dubai-module-user-->dubai;
+    dubai-module-user-->dubai-module;
 
-    study-module-->dubai;
+    study-module-->dubai-module;
     study-module-->dubai-module-user;
 
     certs-->utils-lang;
