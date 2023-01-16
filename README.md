@@ -6,6 +6,7 @@
 * [dubai:v1.0.1](https://github.com/dbstarll/dubai)
 * [dubai-module-user:v1.0.2](https://github.com/dbstarll/dubai-module-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
+* [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstarll/study-boot)
 
 依赖关系：
 
@@ -28,6 +29,13 @@ graph TD;
 
     study-module-->dubai-module;
     study-module-->dubai-module-user;
+
+    study-boot-->parent.boot;
+    study-boot-->study-module;
+    study-boot-->utils-net-api;
+    study-boot-->utils-json;
+    study-boot-->utils-spring-boot;
+    study-boot-->utils-spring-security;
 
     certs-->utils-lang;
     utils-spring-security-->utils-lang;
