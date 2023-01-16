@@ -13,6 +13,7 @@
 ```mermaid
 graph TD;
     parent.base([parent:base]);
+    parent.boot([parent:boot])--->parent.base;
 
     utils-lang-->parent.base;
 
@@ -39,7 +40,5 @@ graph TD;
 
     certs-->utils-lang;
     utils-spring-security-->utils-lang;
-    study-->utils-spring-boot;
-    db-test-->utils-spring-boot;
 ```
 
