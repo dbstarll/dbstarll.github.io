@@ -3,6 +3,7 @@
 * [parent](https://github.com/dbstarll/parent)
 * [utils-lang](https://github.com/dbstarll/utils-lang)
 * [utils-spring-boot](https://github.com/dbstarll/utils-spring-boot)
+* [dubai](https://github.com/dbstarll/dubai)
 
 依赖关系：
 
@@ -17,5 +18,7 @@ graph TD;
     stydy-->utils-spring-boot;
     dubai-->utils-spring-boot;
     db-test-->utils-spring-boot;
+
+    dubai-->parent.base;
 ```
 
