@@ -11,13 +11,13 @@
 
 ```mermaid
 graph TD;
-    parent.base([体育场形]);
+    parent.base([parent:base]);
 
     utils-lang-->parent.base;
 
     utils-spring-boot-->parent.base;
 
-    dubai([体育场形])-->parent.base;
+    dubai([dubai])-->parent.base;
     dubai-->utils-lang;
     
     dubai-module-user-->dubai;
