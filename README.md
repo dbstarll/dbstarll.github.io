@@ -1,7 +1,7 @@
 # 我的项目汇总
 
 * [parent:v1.3.0](https://github.com/dbstar-org/parent)
-* [utils-lang:v1.0.6](https://github.com/dbstarll/utils-lang)
+* [utils-lang:v1.0.7](https://github.com/dbstar-org/utils-lang)
 * [utils-spring-boot:v1.0.6](https://github.com/dbstarll/utils-spring-boot)
 * [utils-spring-security:v1.0.2](https://github.com/dbstarll/utils-spring-security)
 * [utils-http-client:v1.0.3](https://github.com/dbstarll/utils-http-client)
