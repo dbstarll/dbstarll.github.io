@@ -7,7 +7,7 @@
 * [utils-http-client:v1.0.3](https://github.com/dbstarll/utils-http-client)
 * [utils-net-api:v1.0.2](https://github.com/dbstarll/utils-net-api)
 * [utils-json:v1.0.2](https://github.com/dbstarll/utils-json)
-* [dubai:v1.0.1](https://github.com/dbstarll/dubai)
+* [dubai:v1.1.0](https://github.com/dbstar-org/dubai)
 * [dubai-module-user:v1.0.2](https://github.com/dbstarll/dubai-module-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstarll/study-boot)
