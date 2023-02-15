@@ -8,7 +8,7 @@
 * [utils-net-api:v1.0.2](https://github.com/dbstarll/utils-net-api)
 * [utils-json:v1.0.2](https://github.com/dbstarll/utils-json)
 * [dubai:v1.1.0](https://github.com/dbstar-org/dubai)
-* [dubai-module-user:v1.0.2](https://github.com/dbstarll/dubai-module-user)
+* [dubai-model-user:v1.0.3](https://github.com/dbstar-org/dubai-model-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstarll/study-boot)
 
@@ -41,10 +41,10 @@ graph TD;
     dubai-module([dubai-module])-->dubai;
     dubai-module-->dubai-model-service;
     
-    dubai-module-user-->dubai-module;
+    dubai-model-user-->dubai-module;
 
     study-module-->dubai-module;
-    study-module-->dubai-module-user;
+    study-module-->dubai-model-user;
 
     study-boot-->parent.boot;
     study-boot-->study-module;
