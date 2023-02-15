@@ -41,7 +41,8 @@ graph TD;
     dubai-module([dubai-module])-->dubai;
     dubai-module-->dubai-model-service;
     
-    dubai-model-user-->dubai-module;
+    dubai-model-user-->dubai-model;
+    dubai-model-user-->dubai-model-service;
 
     study-module-->dubai-module;
     study-module-->dubai-model-user;
