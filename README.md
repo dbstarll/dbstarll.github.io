@@ -6,7 +6,7 @@
 * [utils-spring-security:v1.0.3](https://github.com/dbstar-org/utils-spring-security)
 * [utils-http-client:v1.0.5](https://github.com/dbstar-org/utils-http-client)
 * [utils-net-api:v1.0.4](https://github.com/dbstar-org/utils-net-api)
-* [utils-json:v1.0.3](https://github.com/dbstar-org/utils-json)
+* [utils-json:v1.0.4](https://github.com/dbstar-org/utils-json)
 * [dubai:v1.1.2](https://github.com/dbstar-org/dubai)
 * [dubai-model-user:v1.0.3](https://github.com/dbstar-org/dubai-model-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
