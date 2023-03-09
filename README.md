@@ -55,7 +55,7 @@ graph TD;
     study-boot-->utils-json;
     study-boot-->utils-net-api;
 
-    utils-openai-->parent.boot;
+    utils-openai-->parent.base;
     utils-openai-->utils-net-api;
     utils-openai-->utils-json;
 ```
