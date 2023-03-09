@@ -11,6 +11,7 @@
 * [dubai-model-user:v1.0.3](https://github.com/dbstar-org/dubai-model-user)
 * [study-module:v1.0.2](https://github.com/dbstarll/study-module)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstarll/study-boot)
+* [utils-openai:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/utils-openai)
 
 依赖关系：
 
@@ -53,4 +54,8 @@ graph TD;
     study-boot-->utils-spring-security;
     study-boot-->utils-json;
     study-boot-->utils-net-api;
+
+    utils-openai-->parent.boot;
+    utils-openai-->utils-net-api;
+    utils-openai-->utils-json;
 ```
