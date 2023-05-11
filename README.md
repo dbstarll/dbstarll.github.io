@@ -9,8 +9,9 @@
 * [utils-json:v1.1.0](https://github.com/dbstar-org/utils-json)
 * [dubai:v1.1.2](https://github.com/dbstar-org/dubai)
 * [dubai-model-user:v1.0.3](https://github.com/dbstar-org/dubai-model-user)
-* [study-module:v1.0.2](https://github.com/dbstarll/study-module)
-* [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstarll/study-boot)
+* [study-model:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/study-model)
+* [study-module-dictionary-iciba:v1.0.2](https://github.com/dbstar-org/study-module-dictionary-iciba)
+* [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstar-org/study-boot)
 * [utils-openai:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/utils-openai)
 
 依赖关系：
@@ -45,11 +46,16 @@ graph TD;
     dubai-model-user-->dubai-model;
     dubai-model-user-->dubai-model-service;
 
-    study-module-->dubai-module;
-    study-module-->dubai-model-user;
+    study-module-dictionary-iciba-->dubai-module;
+    study-module-dictionary-iciba-->study-model;
+    study-module-dictionary-iciba-->utils-net-api;
+    study-module-dictionary-iciba-->utils-json;
+
+    study-model-->dubai-model;
+    study-model-->dubai-model-user;
 
     study-boot-->parent.boot;
-    study-boot-->study-module;
+    study-boot-->study-module-dictionary-iciba;
     study-boot-->utils-spring-boot;
     study-boot-->utils-spring-security;
     study-boot-->utils-json;
