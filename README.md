@@ -7,10 +7,10 @@
 * [utils-http-client:v1.1.0](https://github.com/dbstar-org/utils-http-client)
 * [utils-net-api:v1.1.0](https://github.com/dbstar-org/utils-net-api)
 * [utils-json:v1.1.0](https://github.com/dbstar-org/utils-json)
-* [dubai:v1.1.2](https://github.com/dbstar-org/dubai)
-* [dubai-model-user:v1.0.3](https://github.com/dbstar-org/dubai-model-user)
+* [dubai:v1.1.3-SNAPSHOT](https://github.com/dbstar-org/dubai)
+* [dubai-model-user:v1.0.4-SNAPSHOT](https://github.com/dbstar-org/dubai-model-user)
 * [study-model:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/study-model)
-* [study-module-dictionary-iciba:v1.0.2](https://github.com/dbstar-org/study-module-dictionary-iciba)
+* [study-module-dictionary-iciba:v1.0.3-SNAPSHOT](https://github.com/dbstar-org/study-module-dictionary-iciba)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstar-org/study-boot)
 * [utils-openai:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/utils-openai)
 
