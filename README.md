@@ -13,6 +13,7 @@
 * [study-module-dictionary-iciba:v1.0.3-SNAPSHOT](https://github.com/dbstar-org/study-module-dictionary-iciba)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstar-org/study-boot)
 * [utils-openai:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/utils-openai)
+* [weixin-sdk:v1.0.0](https://github.com/dbstar-org/weixin-sdk)
 
 依赖关系：
 
@@ -64,4 +65,8 @@ graph TD;
     utils-openai-->parent.base;
     utils-openai-->utils-net-api;
     utils-openai-->utils-json;
+
+    weixin-sdk-->parent.base;
+    weixin-sdk-->utils-net-api;
+    weixin-sdk-->utils-json;
 ```
