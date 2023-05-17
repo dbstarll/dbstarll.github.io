@@ -22,22 +22,12 @@ graph TD;
     parent.base([parent:base]);
     parent.boot([parent:boot])--->parent.base;
 
-    utils-lang-->parent.base;
-
-    utils-spring-boot-->parent.base;
-
-    utils-spring-security-->parent.base;
     utils-spring-security-->utils-lang;
 
-    utils-http-client-->parent.base;
-
-    utils-net-api-->parent.base;
     utils-net-api-->utils-http-client;
 
-    utils-json-->parent.base;
     utils-json-->utils-net-api;
 
-    dubai([dubai])-->parent.base;
     dubai-model([dubai-model])-->dubai;
     dubai-model-service-->utils-lang;
     dubai-model-service-->dubai-model;
@@ -62,11 +52,9 @@ graph TD;
     study-boot-->utils-json;
     study-boot-->utils-net-api;
 
-    utils-openai-->parent.base;
     utils-openai-->utils-net-api;
     utils-openai-->utils-json;
 
-    weixin-sdk-->parent.base;
     weixin-sdk-->utils-net-api;
     weixin-sdk-->utils-json;
 ```
