@@ -6,7 +6,6 @@
 * [utils-spring-security:v1.0.3](https://github.com/dbstar-org/utils-spring-security)
 * [utils-http-client:v1.1.0](https://github.com/dbstar-org/utils-http-client)
 * [utils-net-api:v1.1.0](https://github.com/dbstar-org/utils-net-api)
-* [utils-json:v1.1.0](https://github.com/dbstar-org/utils-json)
 * [utils-json-api:v1.1.1](https://github.com/dbstar-org/utils-json-api)
 * [dubai:v1.1.3-SNAPSHOT](https://github.com/dbstar-org/dubai)
 * [dubai-model-user:v1.0.4-SNAPSHOT](https://github.com/dbstar-org/dubai-model-user)
@@ -14,7 +13,7 @@
 * [study-module-dictionary-iciba:v1.0.3-SNAPSHOT](https://github.com/dbstar-org/study-module-dictionary-iciba)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstar-org/study-boot)
 * [utils-openai:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/utils-openai)
-* [weixin-sdk:v1.0.0](https://github.com/dbstar-org/weixin-sdk)
+* [weixin-sdk:v1.0.1](https://github.com/dbstar-org/weixin-sdk)
 
 依赖关系：
 
@@ -27,7 +26,7 @@ graph TD;
 
     utils-net-api-->utils-http-client;
 
-    utils-json-->utils-net-api;
+    utils-json-api-->utils-net-api;
 
     dubai([dubai]);
     dubai-model([dubai-model])-->dubai;
@@ -53,6 +52,5 @@ graph TD;
 
     utils-openai-->utils-json-api;
 
-    weixin-sdk-->utils-net-api;
-    weixin-sdk-->utils-json;
+    weixin-sdk-->utils-json-api;
 ```
