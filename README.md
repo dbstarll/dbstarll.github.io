@@ -7,6 +7,7 @@
 * [utils-http-client:v1.1.0](https://github.com/dbstar-org/utils-http-client)
 * [utils-net-api:v1.1.0](https://github.com/dbstar-org/utils-net-api)
 * [utils-json:v1.1.0](https://github.com/dbstar-org/utils-json)
+* [utils-json-api:v1.1.1](https://github.com/dbstar-org/utils-json-api)
 * [dubai:v1.1.3-SNAPSHOT](https://github.com/dbstar-org/dubai)
 * [dubai-model-user:v1.0.4-SNAPSHOT](https://github.com/dbstar-org/dubai-model-user)
 * [study-model:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/study-model)
@@ -28,6 +29,7 @@ graph TD;
 
     utils-json-->utils-net-api;
 
+    dubai([dubai]);
     dubai-model([dubai-model])-->dubai;
     dubai-model-service-->utils-lang;
     dubai-model-service-->dubai-model;
