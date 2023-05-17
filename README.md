@@ -41,8 +41,7 @@ graph TD;
 
     study-module-dictionary-iciba-->dubai-module;
     study-module-dictionary-iciba-->study-model;
-    study-module-dictionary-iciba-->utils-net-api;
-    study-module-dictionary-iciba-->utils-json;
+    study-module-dictionary-iciba-->utils-json-api;
 
     study-model-->dubai-model;
     study-model-->dubai-model-user;
@@ -51,11 +50,8 @@ graph TD;
     study-boot-->study-module-dictionary-iciba;
     study-boot-->utils-spring-boot;
     study-boot-->utils-spring-security;
-    study-boot-->utils-json;
-    study-boot-->utils-net-api;
 
-    utils-openai-->utils-net-api;
-    utils-openai-->utils-json;
+    utils-openai-->utils-json-api;
 
     weixin-sdk-->utils-net-api;
     weixin-sdk-->utils-json;
