@@ -13,7 +13,7 @@
 * [study-module-dictionary-iciba:v1.0.3-SNAPSHOT](https://github.com/dbstar-org/study-module-dictionary-iciba)
 * [study-boot:v1.0.2-SNAPSHOT](https://github.com/dbstar-org/study-boot)
 * [utils-openai:v1.0.0-SNAPSHOT](https://github.com/dbstar-org/utils-openai)
-* [weixin-sdk:v1.0.1](https://github.com/dbstar-org/weixin-sdk)
+* [weixin-sdk:v1.0.3](https://github.com/dbstar-org/weixin-sdk)
 
 依赖关系：
 
