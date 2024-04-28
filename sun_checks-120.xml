@@ -114,11 +114,11 @@
     <module name="StaticVariableName"/>
     <module name="TypeName"/>
 
-    <!-- Checks for imports                              -->
+    <!-- Checks for imports                             -->
     <!-- See https://checkstyle.org/config_imports.html -->
-    <module name="AvoidStarImport">
-       <property name="excludes" value="java.io,java.util,java.net,java.security"/>
-    </module>
+    <!-- <module name="AvoidStarImport"> -->
+    <!--    <property name="excludes" value="java.io,java.util,java.net,java.security"/> -->
+    <!-- </module> -->
     <module name="IllegalImport"/> <!-- defaults to sun.* packages -->
     <module name="RedundantImport"/>
     <module name="UnusedImports">
